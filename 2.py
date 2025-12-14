@@ -18,7 +18,7 @@ BASE = Path.cwd()
 MODEL_FILE = BASE / "drug_model.pkl"
 CSV_FILE = BASE / "drug200.csv"
 
-# ---------------------- TITLE ----------------------
+
 st.title("💊 Drug Prediction Machine Learning Dashboard")
 st.markdown("This dashboard includes training, prediction, and ALL visual charts & graphs.")
 

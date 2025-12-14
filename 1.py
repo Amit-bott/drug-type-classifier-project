@@ -1,12 +1,3 @@
-# dashboard_app.py
-"""
-Combined ML Dashboard
-Requirements:
-    pip install streamlit pandas numpy scikit-learn joblib matplotlib
-Run:
-    streamlit run dashboard_app.py
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -43,9 +34,7 @@ Drop your `drug200.csv` and `insurance.csv` in the app folder or upload via the 
 """
 )
 
-# -------------------------
-# Utility functions
-# -------------------------
+
 def make_demo_drug():
     # a demo version of the common drug200 dataset shape
     df = pd.DataFrame({
