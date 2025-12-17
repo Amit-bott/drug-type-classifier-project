@@ -338,7 +338,7 @@ import pandas as pd
 import joblib
 from pathlib import Path
 
-# ---------------- PAGE CONFIG ----------------
+
 st.set_page_config(
     page_title="Drug Prediction Dashboard",
     layout="wide",
