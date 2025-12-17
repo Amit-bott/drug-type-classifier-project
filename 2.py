@@ -452,7 +452,6 @@ footer {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
 
-# ---------------- PATH ----------------
 BASE = Path.cwd()
 MODEL_FILE = BASE / "drug_model.pkl"
 
