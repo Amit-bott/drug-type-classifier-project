@@ -459,23 +459,21 @@ MODEL_FILE = BASE / "drug_model.pkl"
 def load_model():
     return joblib.load(MODEL_FILE)
 
-# ---------------- TOP BAR (FIXED) ----------------
 st.markdown(
     '<div class="top-quote">when you realized the love is over, but life isn’t</div>',
     unsafe_allow_html=True
 )
 
-# ---------------- TITLE ----------------
+
 st.markdown('<div class="title">💊 Drug Prediction Productivity Dashboard</div>', unsafe_allow_html=True)
 
-# ---------------- MODEL CHECK ----------------
 if not MODEL_FILE.exists():
     st.error("drug_model.pkl not found")
     st.stop()
 
 model = load_model()
 
-# ---------------- KPI ----------------
+
 k1, k2, k3, k4 = st.columns(4)
 with k1:
     st.markdown("<div class='card'><div class='metric'>98%</div><div class='small'>Model Accuracy</div></div>", unsafe_allow_html=True)
