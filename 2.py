@@ -486,7 +486,6 @@ with k4:
 
 st.write("")
 
-# ---------------- MAIN GRID ----------------
 left, center, right = st.columns([1.1, 1.3, 1])
 
 with left:
