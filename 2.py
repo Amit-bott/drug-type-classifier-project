@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 from pathlib import Path
-
-
 st.set_page_config(
     page_title="Drug Prediction Dashboard",
     layout="wide",
@@ -127,8 +125,6 @@ st.markdown(
     '<div class="top-quote">when you realized the love is over, but life isn’t</div>',
     unsafe_allow_html=True
 )
-
-
 st.markdown('<div class="title">💊 Drug Prediction Productivity Dashboard</div>', unsafe_allow_html=True)
 
 if not MODEL_FILE.exists():
