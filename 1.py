@@ -33,8 +33,6 @@ This dashboard bundles two ML modules:
 Drop your `drug200.csv` and `insurance.csv` in the app folder or upload via the UI.
 """
 )
-
-
 def make_demo_drug():
     # a demo version of the common drug200 dataset shape
     df = pd.DataFrame({
