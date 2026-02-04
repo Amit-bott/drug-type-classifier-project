@@ -133,7 +133,6 @@ if not MODEL_FILE.exists():
 
 model = load_model()
 
-
 k1, k2, k3, k4 = st.columns(4)
 with k1:
     st.markdown("<div class='card'><div class='metric'>98%</div><div class='small'>Model Accuracy</div></div>", unsafe_allow_html=True)
