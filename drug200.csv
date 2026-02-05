@@ -1,4 +1,4 @@
-Age,Sex,BP,Cholesterol,Na_to_K,Drug
+Age,Sex,BP,Cholesterol,Na_to_K,Drug  
 23,F,HIGH,HIGH,25.355,drugY
 47,M,LOW,HIGH,13.093,drugC
 47,M,LOW,HIGH,10.114,drugC
