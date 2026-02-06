@@ -420,4 +420,3 @@ with tab2:
 
 st.markdown("---")
 st.caption("Tip: To use your own datasets, place `drug200.csv` and `insurance.csv` in the same folder as this app or upload them in the sidebar. Models are saved as `drug_model.pkl` and `insurance_model.pkl`.")
-
