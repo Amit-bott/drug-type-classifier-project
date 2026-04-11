@@ -185,3 +185,4 @@ with right:
     else:
         st.info("Enter details & click Predict")
     st.markdown("</div>", unsafe_allow_html=True)
+
